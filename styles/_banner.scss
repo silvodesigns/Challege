@@ -1,0 +1,6 @@
+@use './variables' as v;
+
+.banner{
+    background-color: v.$heavy-grey;
+    height:245px;
+}

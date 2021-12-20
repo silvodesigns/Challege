@@ -1,0 +1,13 @@
+@use './variables' as v;
+@use './header';
+@use './headline';
+@use './slideshow';
+@use './_banner';
+
+main {
+    max-width: 1920px;
+    padding:0 154px;
+    background-color: v.$light-blue;
+    padding-bottom:85px;
+
+}

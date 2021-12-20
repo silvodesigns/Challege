@@ -1,0 +1,40 @@
+@use './variables' as v;
+
+.slideshow {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+.slideshow-text{
+    display: flex;
+    flex-direction: column;
+    .first-line, .second-line {
+        height:33px;
+        background-color: v.$primary-grey;
+        display:block;
+        margin:16px 0;
+    }
+    .first-line{width:628px;}
+    .second-line{ width:408px; margin:0 auto;} 
+    .controls {
+        display:flex;
+        width:313px;
+        justify-content: space-between;
+        margin:0 auto;
+        margin-top:9px;
+    
+    
+    div { 
+        width: 39px;
+        height: 39px;
+        border-radius: 50%;
+        background-color: #fff;
+       
+    
+      }
+      .filled {
+          background-color: v.$heavy-grey;
+      }
+}
+}
+}

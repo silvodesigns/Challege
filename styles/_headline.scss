@@ -1,0 +1,15 @@
+
+@use './variables' as v;
+
+.headline-text {
+    margin-top:223px;
+    span {
+        background-color: v.$heavy-grey;
+        display:block;
+        height:106px;
+        margin:9px 0;
+    }
+    .first-line, .fourth-line {width:398px;}
+    .second-line, .third-line {width: 593px;}
+    
+}
